@@ -48,7 +48,7 @@ li a:hover{
 .drawer{
 
     background-color: rgb(58, 150, 153);
-    height: 60vh;
+    height: 70vh;
     width: 50vw;
 
     font-size: 2rem;
@@ -159,6 +159,12 @@ li a:hover{
 #btn:hover{
     background-color: rgb(78, 198, 202);
 }
+
+
+
+
+
+
 
 
 
@@ -285,10 +291,13 @@ color: rgb(78, 198, 202);
 
 
 
-@media (max-width:1200px){
+@media (max-width:1150px){
 
     html{
         font-size: 80%;
+    }
+    #background{
+        height: 35vh;
     }
 }
 
@@ -299,13 +308,56 @@ color: rgb(78, 198, 202);
         font-size: 70%;
     }
 
-    .home{
+    li a{
         display: none;
     }
 
     #menu {
         display:inline-block;
         
+   }
+
+   #background{
+       height: 33vh;
+       margin-left: 20rem;
+    }
+}
+
+
+@media(max-width: 892px){
+
+    html{
+        font-size: 65%;
     }
 
+    #background{
+        height: 27vh;
+        margin-left: 17rem;
+    }
+
+}
+
+
+@media(max-width:800px){
+
+    html{
+        font-size: 58%;
+    }
+
+    #background{
+        margin-left: 10rem;
+    }
+}
+
+
+
+@media(max-width:699px){
+    html{
+        font-size: 50%;
+    }
+
+    #background{
+        height: 20vh;
+        width: 20vw;
+    }
 }
