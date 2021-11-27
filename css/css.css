@@ -48,8 +48,8 @@ li a:hover{
 .drawer{
 
     background-color: rgb(58, 150, 153);
-    height: 40vh;
-    width: 80vw;
+    height: 60vh;
+    width: 50vw;
 
     font-size: 2rem;
     position: fixed;
@@ -64,7 +64,7 @@ li a:hover{
 }
 
 .drawer.active{
-    right: 0;
+    top:10%; right: 0;
     transition: .4s linear ;
 }
 .drawer a{
@@ -86,7 +86,8 @@ li a:hover{
     
 }
 #menu {
-    margin-left: 50rem;
+    position: fixed;
+    right: 7%; top: 5%;
     display: none;
     cursor: pointer;
     background-color: rgb(58, 150, 153);
@@ -95,6 +96,15 @@ li a:hover{
     height: 3rem;
     text-align: center;
 }
+
+
+#closer{
+    position: fixed;
+    right: 53%; top: 13%;
+    display: none;
+    cursor: pointer;
+}
+
 
 .profile{
     display: flex;
