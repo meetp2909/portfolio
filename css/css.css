@@ -363,6 +363,10 @@ color: rgb(78, 198, 202);
         height: 20vh;
         width: 20vw;
     }
+
+    .profile{
+        padding: 1rem;
+    }
 }
 
 
@@ -375,6 +379,7 @@ color: rgb(78, 198, 202);
 
     .profile{
         margin-top: 15rem;
+        padding: 1.5rem;
     }
 }
 
@@ -394,10 +399,12 @@ color: rgb(78, 198, 202);
     }
 
     #background{
-        height: 15vh;
+        height: 12vh;
         width: 18vw;
         margin-left: 7rem;
     }
 
-
+    #closer{
+        right: 55%;
+    }
 }
