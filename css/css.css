@@ -10,8 +10,9 @@ body{
     /* background-color: black; */
     background: url("../img/keyboard3.webp");
     background-position: center;
-    background-size: 115vw 127vh;
+    background-size: 150vw 160vh;
     opacity: 8.5;
+    overflow: hidden;
 
 }
 
@@ -356,8 +357,47 @@ color: rgb(78, 198, 202);
         font-size: 50%;
     }
 
+    
+
     #background{
         height: 20vh;
         width: 20vw;
     }
+}
+
+
+
+@media(max-width: 500px){
+
+    html{
+        font-size: 45%;
+    }
+
+    .profile{
+        margin-top: 15rem;
+    }
+}
+
+
+@media(max-width:420px){
+
+    html{
+        font-size: 40%;
+    }
+
+    #first{
+        margin-left: 4rem;
+    }
+
+    .profile{
+        margin-top: 22rem;
+    }
+
+    #background{
+        height: 15vh;
+        width: 18vw;
+        margin-left: 7rem;
+    }
+
+
 }
