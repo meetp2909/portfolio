@@ -367,6 +367,10 @@ color: rgb(78, 198, 202);
     .profile{
         padding: 1rem;
     }
+
+    .navbar{
+        margin-top: 3rem;
+    }
 }
 
 
@@ -381,17 +385,21 @@ color: rgb(78, 198, 202);
         margin-top: 15rem;
         padding: 1.5rem;
     }
+
+    .navbar{
+        margin-top: 5rem;
+    }
 }
 
 
 @media(max-width:420px){
 
     html{
-        font-size: 40%;
+        font-size: 42%;
     }
 
     #first{
-        margin-left: 4rem;
+        margin-left: 2.5rem;
     }
 
     .profile{
@@ -405,6 +413,9 @@ color: rgb(78, 198, 202);
     }
 
     #closer{
-        right: 55%;
+        right: 57%;
+    }
+    .navbar{
+        margin-top: 8rem;
     }
 }
