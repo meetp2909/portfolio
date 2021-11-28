@@ -11,6 +11,9 @@ body{
     background: url("../img/keyboard3.webp");
     background-position: flex;
     background-size: 150vw 160vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     opacity: 8.5;
     overflow-x: auto;
     overflow-y: auto;
@@ -181,6 +184,8 @@ li a:hover{
 .contact{
     color: white;
     margin-bottom: 3rem;
+    padding-top: 8rem;
+    margin-right: 20rem;
 }
 
 #cont{
@@ -230,7 +235,6 @@ li a:hover{
 color: rgb(78, 198, 202);
 
 }
-
 
 
 
@@ -398,6 +402,9 @@ color: rgb(78, 198, 202);
     .navbar{
         margin-top: 6rem;
     }
+    .contact{
+        margin-right: 20rem;
+    }
 }
 
 
@@ -429,7 +436,10 @@ color: rgb(78, 198, 202);
     #closer{
         right: 57%;
     }
-    .navbar{
+    #contact{
+
+        margin-right: 20rem;
       
+        
     }
 }
