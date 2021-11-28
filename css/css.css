@@ -9,10 +9,11 @@
 body{
     /* background-color: black; */
     background: url("../img/keyboard3.webp");
-    background-position: center;
+    background-position: flex;
     background-size: 150vw 160vh;
     opacity: 8.5;
-    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
 
 }
 
@@ -116,9 +117,9 @@ li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(58, 150, 153);
+    margin-top: 4rem;
     width: 18vw;
-    height: 40vh;
+    height: 20vh;
     border-radius: 2rem;
     margin-left: 25rem;
     
@@ -126,7 +127,10 @@ li a:hover{
 }
 #photo{
     width: 15vw;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #first{
     color: white;
@@ -296,6 +300,10 @@ color: rgb(78, 198, 202);
 
     html{
         font-size: 80%;
+        display: flex;
+        justify-content: center;
+         align-items: center;
+         margin-right: 2rem ;
     }
     #background{
         height: 35vh;
@@ -320,7 +328,7 @@ color: rgb(78, 198, 202);
 
    #background{
        height: 33vh;
-       margin-left: 20rem;
+       margin-right: 8rem ;
     }
 }
 
@@ -344,8 +352,9 @@ color: rgb(78, 198, 202);
     html{
         font-size: 58%;
     }
-
+    
     #background{
+        height: 25vh;
         margin-left: 10rem;
     }
 }
@@ -382,7 +391,7 @@ color: rgb(78, 198, 202);
     }
 
     .profile{
-        margin-top: 15rem;
+       
         padding: 1.5rem;
     }
 
@@ -392,18 +401,23 @@ color: rgb(78, 198, 202);
 }
 
 
-@media(max-width:420px){
+@media(max-width:470px){
 
     html{
         font-size: 42%;
+
+        
+       
     }
 
     #first{
-        margin-left: 2.5rem;
+        display: block;
+        margin-right: 10rem;
     }
 
     .profile{
-        margin-top: 22rem;
+        display: block;
+        align-items: center;
     }
 
     #background{
@@ -416,6 +430,6 @@ color: rgb(78, 198, 202);
         right: 57%;
     }
     .navbar{
-        margin-top: 6rem;
+      
     }
 }
