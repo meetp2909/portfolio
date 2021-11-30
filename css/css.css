@@ -10,7 +10,7 @@ body{
     /* background-color: black; */
     background: url("../img/mac.jpg");
     background-position: flex;
-    background-size: 150vw 160vh;
+    /* background-size: 150vw 160vh; */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
