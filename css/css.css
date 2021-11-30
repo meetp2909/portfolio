@@ -190,7 +190,7 @@ li a:hover{
 #contact{
     color: white;
     margin-bottom: 3rem;
-    padding-top: 8rem;
+    padding-top: 16rem;
     /* margin-right: 20rem; */
 }
 
@@ -205,12 +205,14 @@ li a:hover{
 }
 
 #name{
+    color: white;
     margin-left: 33rem;
     margin-top: 3rem;
     font-size: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #no{
+        color: white;
         margin-left: 30rem;
         margin-top: 3rem;
         font-size: 2rem;
@@ -225,6 +227,7 @@ li a:hover{
 
 
 .touch{
+    padding-top: 16rem;
     margin-bottom: 3rem;
    
 }
