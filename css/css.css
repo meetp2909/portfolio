@@ -167,6 +167,7 @@ li a:hover{
      font-size: 1.3rem;
      margin-left: 14rem;
      border-radius: 1rem;
+
 }
 
 #btn:hover{
@@ -227,7 +228,7 @@ li a:hover{
 
 
 .touch{
-    padding-top: 16rem;
+    padding-top: 10rem;
     margin-bottom: 3rem;
    
 }
@@ -249,8 +250,35 @@ li a:hover{
 }
 
 
+.tech{
 
+    margin-top: 20rem;
 
+}
+
+.icon-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.js{
+    margin-left: 8rem;
+}
+
+.icon-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    
+}
+
+.mongo{
+ height: 10rem;
+ margin-left:4rem;
+}
 
 
 
@@ -349,7 +377,7 @@ li a:hover{
 }
 
 
-@media(max-width: 892px){
+@media(max-width: 902px){
 
     html{
         font-size: 65%;
@@ -368,7 +396,9 @@ li a:hover{
     html{
         font-size: 58%;
     }
-    
+    body{
+        overflow-x: hidden;
+    }
     #background{
         height: 25vh;
         margin-left: 10rem;
@@ -383,12 +413,11 @@ li a:hover{
     }
 
     #icons{
-        margin-left: 5rem;
+        margin-left: 3rem;
     }
 
-    #background{
-        height: 20vh;
-        width: 20vw;
+    #first{
+        margin-left: 4rem;
     }
 
     .profile{
@@ -398,6 +427,23 @@ li a:hover{
     .navbar{
         margin-top: 6rem;
     }
+
+    .icon-1{
+        display: block;
+    }
+
+    .js{
+        padding: 4rem;
+    }
+
+    .icon-2{
+        display: block;
+    }
+
+    .mongo{
+        padding: 4rem;
+    }
+
 }
 
 
@@ -416,6 +462,8 @@ li a:hover{
     .navbar{
         margin-top: 6rem;
     }
+
+    
     .contact{
         /* margin-right: 20rem; */
     }
@@ -437,8 +485,13 @@ li a:hover{
 
     #first{
         display: block;
-        margin-right: 10rem;
-    }
+        margin-left: 4rem;
+}
+   
+   #btn{
+       margin-top: 3rem;
+   }
+
 
     .profile{
         display: block;
@@ -449,7 +502,12 @@ li a:hover{
         height: 12vh;
         width: 18vw;
         margin-left: 7rem;
+        margin-bottom: 3rem;
     }
+
+   #btn{
+       margin-left: 10rem;
+   }
 
     #closer{
         right: 58%;
@@ -458,6 +516,7 @@ li a:hover{
     #no{
         margin-left: 15rem;
     }
+    
 
     
 }
