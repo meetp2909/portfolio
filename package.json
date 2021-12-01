@@ -1,0 +1,22 @@
+{
+  "name": "meet",
+  "version": "1.0.0",
+  "description": "It is an portfolio web-page contain personal information",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meetp2909/portfolio.git"
+  },
+  "author": "Meet Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meetp2909/portfolio/issues"
+  },
+  "homepage": "https://github.com/meetp2909/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
