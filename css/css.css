@@ -436,7 +436,7 @@ li a:hover{
         overflow-x: hidden;
     }
     #background{
-        height: 12vh;
+        height: 8vh;
         margin-left: 10rem;
     }
 
@@ -489,7 +489,7 @@ li a:hover{
         padding: 4rem;
     }
     #background{
-        height: 12vh;
+        height: 7vh;
         margin-left: 8rem;
     }
 
@@ -523,7 +523,7 @@ li a:hover{
 }
 
 
-@media(max-width:487px){
+@media(max-width:493px){
 
     html{
         font-size: 42%;
