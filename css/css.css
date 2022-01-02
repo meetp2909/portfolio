@@ -205,7 +205,8 @@ li a:hover{
 
 
 #project{
-    padding-top: 10rem;
+    padding-top: 16rem;
+    margin-bottom: 15rem;
 }
 
 
@@ -560,6 +561,9 @@ li a:hover{
         margin-left: 15rem;
     }
     
+    #name{
+        margin-left: 15rem;
+    }
 
     
 }
