@@ -179,8 +179,34 @@ li a:hover{
 
 
 
+#about{
+
+    /* margin-bottom: 1rem; */
+    padding-top: 16rem;
+
+}
+
+#personal-1{
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-right: 1rem;
+    margin-left: 8rem;
+    padding: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#personal-2{
+    color:rgb(228, 54, 106);
+    font-size: 1.5rem ;
+    display: inline-block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
+#project{
+    padding-top: 10rem;
+}
 
 
 
@@ -354,6 +380,11 @@ li a:hover{
     #background{
         height: 35vh;
     }
+
+    #personal-1{
+        margin-left: 4rem;
+        margin-right: 0rem;
+    }
 }
 
 
@@ -404,6 +435,15 @@ li a:hover{
     #background{
         height: 25vh;
         margin-left: 10rem;
+    }
+
+    #personal-1{
+        padding: 2.5rem;
+    }
+
+    #personal-2{
+        display: block;
+        margin-left: 6rem;
     }
 }
 
@@ -521,4 +561,15 @@ li a:hover{
     
 
     
+}
+@media(max-width:330px){
+
+    #personal-1{
+        margin-left: 1.5rem;
+        padding: 3rem;  
+    }
+
+    #personal-2{
+        margin-left: 4rem;
+    }
 }
