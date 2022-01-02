@@ -379,7 +379,8 @@ li a:hover{
          margin-right: 2rem ;
     }
     #background{
-        height: 35vh;
+        height: 10vh;
+        margin-left: 20rem;
     }
 
     #personal-1{
@@ -405,28 +406,28 @@ li a:hover{
    }
 
    #background{
-       height: 33vh;
-       margin-right: 8rem ;
+       height: 15vh;
+       margin-right: 15rem ;
        
     }
 }
 
 
-@media(max-width: 902px){
+@media(max-width: 934px){
 
     html{
         font-size: 65%;
     }
 
     #background{
-        height: 27vh;
+        height: 17vh;
         margin-left: 17rem;
     }
 
 }
 
 
-@media(max-width:800px){
+@media(max-width:829px){
 
     html{
         font-size: 58%;
@@ -435,7 +436,7 @@ li a:hover{
         overflow-x: hidden;
     }
     #background{
-        height: 25vh;
+        height: 12vh;
         margin-left: 10rem;
     }
 
@@ -487,12 +488,16 @@ li a:hover{
     .mongo{
         padding: 4rem;
     }
+    #background{
+        height: 12vh;
+        margin-left: 8rem;
+    }
 
 }
 
 
 
-@media(max-width: 500px){
+@media(max-width: 534px){
 
     html{
         font-size: 45%;
@@ -518,7 +523,7 @@ li a:hover{
 }
 
 
-@media(max-width:470px){
+@media(max-width:487px){
 
     html{
         font-size: 42%;
