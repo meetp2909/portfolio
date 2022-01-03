@@ -363,7 +363,12 @@ li a:hover{
 
 
 
-
+@media(max-width:1296px){
+    #personal-1{
+        margin-left: 1.5rem;
+        margin-right: 0rem;
+    }
+}
 
 
 
