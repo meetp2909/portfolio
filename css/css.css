@@ -13,7 +13,7 @@ body{
     /* background-size: 150vw 160vh; */
     background-repeat: no-repeat;
     background-attachment:fixed;
-    background-size: cover;    
+    background-size: cover !important;    
 
     /* opacity: 8.5; */
      overflow-x: auto;
