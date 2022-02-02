@@ -8,16 +8,17 @@
 
 body{
     /* background-color: black; */
-    background: url("../img/revalue.jpg");
+    background: url("../img/revalue.jpg")no-repeat center center fixed;
     background-position: flex;
     /* background-size: 150vw 160vh; */
     background-repeat: no-repeat;
     background-attachment:fixed;
-    background-size: 100% 100%;
-    /* opacity: 8.5; */
-    overflow-x: auto;
-    overflow-y: auto;
+    background-size: cover;    
 
+    /* opacity: 8.5; */
+     overflow-x: auto;
+    overflow-y: auto; 
+    /* overflow-x: scroll; */
 }
 
 #logo{
