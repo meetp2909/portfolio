@@ -547,11 +547,29 @@ li a:hover{
 @media(max-width:493px){
 
     html{
-        font-size: 42%;
-
-        
-       
+        font-size: 42%;  
     }
+    
+body{
+    /* background-color: black; */
+    background: url("../img/revalue.jpg")no-repeat center center fixed;
+    /* background: url("../img/revalue.jpg")no-repeat center; */
+    background-position: flex;
+    background-position: center center;
+    -webkit-background-size: cover;    
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-size: 150vw 160vh; */
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+
+    /* opacity: 8.5; */
+     /* overflow-x: auto; */
+    /* overflow-y: auto;  */
+    /* overflow-x: scroll; */
+}
+
 
     #first{
         display: block;
