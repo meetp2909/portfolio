@@ -8,8 +8,11 @@
 
 body{
     /* background-color: black; */
-    background: url("../img/revalue.jpg")no-repeat center center fixed;
+    /* background: url("../img/revalue.jpg")no-repeat center center fixed; */
+    background: url("../img/revalue.jpg")no-repeat center;
     background-position: flex;
+    background-position: center center;
+    
     /* background-size: 150vw 160vh; */
     background-repeat: no-repeat;
     background-attachment:fixed;
