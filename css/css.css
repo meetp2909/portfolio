@@ -551,17 +551,17 @@ li a:hover{
     }
     
 
-    body{
+    /* body{ */
         /* background-color: black; */
-        background: url("../img/revalue.jpg")no-repeat center center fixed;
+        /* background: url("../img/revalue.jpg")no-repeat center center fixed; */
         /* background: url("../img/revalue.jpg")no-repeat center;
         background-position: flex;
         background-position: center center;
         
         background-size: 150vw 160vh;
-        /* background-repeat: no-repeat; */
-         background-attachment: initial; 
-        background-size: cover !important;    
+        background-repeat: no-repeat;
+        background-attachment: initial;
+        background-size: cover !important;     */
          
         /* opacity: 8.5; */
         /* overflow-y: auto;  */
