@@ -6,23 +6,36 @@
     font-family: sans-serif;
 }
 
+
 body{
+    background-color: black;
+    z-index: 10;
+}
+
+
+#jpg{
+    position: fixed;
+    top: 12px;
+    width: 100%;
+    z-index: -1;
+}
+/* body{ */
     /* background-color: black; */
     /* background: url("../img/revalue.jpg")no-repeat center center fixed; */
-    background: url("../img/revalue.jpg")no-repeat center;
+    /* background: url("../img/revalue.jpg")no-repeat center;
     background-position: flex;
-    background-position: center center;
+    background-position: center center; */
     
     /* background-size: 150vw 160vh; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-attachment:fixed;
-    background-size: cover !important;    
+    background-size: cover !important;     */
 
     /* opacity: 8.5; */
-     overflow-x: auto;
-    overflow-y: auto; 
+     /* overflow-x: auto;
+    overflow-y: auto;  */
     /* overflow-x: scroll; */
-}
+/* } */
 
 #logo{
     color: white;
@@ -421,6 +434,15 @@ li a:hover{
         display: none;
     }
 
+
+    #jpg{
+        position: fixed;
+        top: 25px;
+        width: 98%;
+        height: 100%;
+        z-index: -1;
+    }
+
     #menu {
         display:inline-block;
         
@@ -440,6 +462,13 @@ li a:hover{
         font-size: 65%;
     }
 
+    #jpg{
+        position: fixed;
+        top: 25px;
+        width: 97%;
+        height: 100%;
+        z-index: -1;
+    }
     #background{
         height: 10vh;
         margin-left: 17rem;
@@ -455,6 +484,14 @@ li a:hover{
     }
     body{
         overflow-x: hidden;
+    }
+
+    #jpg{
+        position: fixed;
+        top: 25px;
+        width: 96%;
+        height: 97%;
+        z-index: -1;
     }
     #background{
         height: 8vh;
@@ -477,6 +514,15 @@ li a:hover{
     html{
         font-size: 50%;
     }
+
+    #jpg{
+        position: fixed;
+        top: 25px;
+        width: 95%;
+        height: 96%;
+        z-index: -1;
+    }
+
 
     #icons{
         margin-left: 3rem;
@@ -524,6 +570,13 @@ li a:hover{
         font-size: 45%;
     }
 
+    #jpg{
+        position: fixed;
+        top: 25px;
+        width: 95%;
+        height: 96%;
+        z-index: -1;
+    }
     .profile{
        
         padding: 1.5rem;
@@ -551,22 +604,29 @@ li a:hover{
     }
     
 
+    #jpg{
+        position: fixed;
+        top: 25px;
+        width: 94%;
+        height: 95%;
+        z-index: -1;
+    }
     /* body{ */
-        /* background-color: black; */
-        /* background: url("../img/revalue.jpg")no-repeat center center fixed; */
-        /* background: url("../img/revalue.jpg")no-repeat center;
-        background-position: flex;
-        background-position: center center;
-        
-        background-size: 150vw 160vh;
-        background-repeat: no-repeat;
-        background-attachment: initial;
-        background-size: cover !important;     */
+        /* background-color: black;  */
+         /* background: url("../img/revalue.jpg")no-repeat center center fixed;  */
+         /* background: url("../img/revalue.jpg")no-repeat center; */
+        /* background-position: flex; */
+        /* background-position: center center; */
+        /* background-size: 150vw 160vh; */
+        /* background-repeat: no-repeat;
+        background-attachment: fixed; */
+
+        /* background-size: cover !important;      */
          
         /* opacity: 8.5; */
         /* overflow-y: auto;  */
         /* overflow-x: scroll; */
-    }
+    /* } */
     
 
     #first{
