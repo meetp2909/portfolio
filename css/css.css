@@ -343,8 +343,19 @@ li a:hover{
     margin:4rem;
 }
 
+#proj-1{
+    color: rgb(18, 170, 240);    
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+#video-1{
 
-
+    position: relative;
+    left: 8rem;
+    margin: 10rem;
+}
 
 
 
@@ -561,6 +572,10 @@ li a:hover{
         height: 7vh;
         margin-left: 8rem;
     }
+    #video-1{
+        position: relative;
+        left: 6rem;
+    }
 
 }
 
@@ -595,6 +610,12 @@ li a:hover{
     #icons{
         display: block;
         margin-top: 2rem;
+
+    }
+    
+    #video-1{
+        position: relative;
+        left: 5rem;
     }
 }
 
@@ -667,6 +688,11 @@ li a:hover{
     
     #name{
         margin-left: 15rem;
+    }
+    
+    #video-1{
+        position: relative;
+        left: 3rem;
     }
 
     
