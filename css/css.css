@@ -353,7 +353,7 @@ li a:hover{
 #video-1{
 
     position: relative;
-    left: 8rem;
+    left: 3rem;
     margin: 10rem;
 }
 
@@ -574,7 +574,7 @@ li a:hover{
     }
     #video-1{
         position: relative;
-        left: 6rem;
+        left: 1rem;
     }
 
 }
@@ -615,7 +615,7 @@ li a:hover{
     
     #video-1{
         position: relative;
-        left: 5rem;
+        left: 1rem;
     }
 }
 
@@ -692,7 +692,8 @@ li a:hover{
     
     #video-1{
         position: relative;
-        left: 3rem;
+        left: 0rem;
+    
     }
 
     
